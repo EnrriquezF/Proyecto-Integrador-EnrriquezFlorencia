@@ -1,4 +1,8 @@
 img {
-    width: 50px;
-    margin-right: 10px;
+    float: right;
+    max-width: 4vw;
+    height: auto;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+    padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+    vertical-align: auto;
 }

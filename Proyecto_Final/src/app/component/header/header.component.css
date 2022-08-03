@@ -1,8 +1,14 @@
 div {
-    background-color: #a1b5cb;
+    background-color: #9c65c3;
+    width: auto;
+    box-sizing: border-box
+}
+
+imagenes-en-div {
+    height: 2vw;
 }
 
 app-rrss {
     float: right;
-    margin-top: 25px;
+    margin: 25px 25px 25px 25px;
 }

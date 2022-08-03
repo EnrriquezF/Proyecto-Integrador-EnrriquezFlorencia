@@ -7,6 +7,8 @@ import { HeaderComponent } from './component/header/header.component';
 import { LogoArgProgComponent } from './component/logo-arg-prog/logo-arg-prog.component';
 import { RRSSComponent } from './component/rrss/rrss.component';
 import { BannerComponent } from './component/banner/banner.component';
+import { AcerDeComponent } from './component/acer-de/acer-de.component';
+import { AcercaDeComponent } from './component/acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { BannerComponent } from './component/banner/banner.component';
     HeaderComponent,
     LogoArgProgComponent,
     RRSSComponent,
-    BannerComponent
+    BannerComponent,
+    AcerDeComponent,
+    AcercaDeComponent
   ],
   imports: [
     BrowserModule,

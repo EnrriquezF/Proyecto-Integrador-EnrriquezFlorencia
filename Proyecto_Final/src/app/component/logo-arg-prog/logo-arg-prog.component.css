@@ -1,3 +1,6 @@
 #logoArgProg {
-    width: 150px;
+    float: left;
+    max-width: 14vw;
+    vertical-align: auto;
+    margin: 0px 0px 0px 5px;
 }
