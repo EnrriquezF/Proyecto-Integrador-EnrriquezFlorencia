@@ -7,8 +7,9 @@ import { HeaderComponent } from './component/header/header.component';
 import { LogoArgProgComponent } from './component/logo-arg-prog/logo-arg-prog.component';
 import { RRSSComponent } from './component/rrss/rrss.component';
 import { BannerComponent } from './component/banner/banner.component';
-import { AcerDeComponent } from './component/acer-de/acer-de.component';
 import { AcercaDeComponent } from './component/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './component/experiencia/experiencia.component';
+import { EducacionComponent } from './component/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { AcercaDeComponent } from './component/acerca-de/acerca-de.component';
     LogoArgProgComponent,
     RRSSComponent,
     BannerComponent,
-    AcerDeComponent,
-    AcercaDeComponent
+    AcercaDeComponent,
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
