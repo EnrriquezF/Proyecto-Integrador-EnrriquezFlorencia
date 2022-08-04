@@ -1,10 +1,15 @@
 .row {
     background-color: bisque;
+    margin: 0vw;
     padding: 20px;
 }
 
 .container {
     padding: 0;
+}
+
+h1 {
+    padding: 20px;
 }
 
 h3{

@@ -1,6 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.row {
+    margin: 0px;
+}
+
+.redes {
+    margin-right: 0.5em;
+}
+
+.pad {
+    padding: 0.5em;
+}
+
 #logoArgProg {
-    float: left;
-    max-width: 14vw;
-    vertical-align: auto;
-    margin: 0px 0px 0px 5px;
+    width: 150px;
+}
+
+img {
+    width:  50px;
+}
+
+/* responsividad telefono movil */
+@media (max-width: 575px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0em 0em 0.5em 0em;
+    }
+
+    .redes img {
+        margin: 0.2em;
+    }
 }
