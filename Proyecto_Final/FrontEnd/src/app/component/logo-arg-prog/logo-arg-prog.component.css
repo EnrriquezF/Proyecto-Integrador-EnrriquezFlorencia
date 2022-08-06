@@ -25,6 +25,18 @@ img {
 }
 
 /* responsividad telefono movil */
+/*@media (max-width: 7680px) {
+    #logoArgProg {
+        width: 7vw;
+    }
+    img {
+        width: 3vw;
+    }
+    button {
+        font-size: 1vw;
+    }
+}*/
+
 @media (max-width: 575px) {
     .container {
         flex-direction: column;

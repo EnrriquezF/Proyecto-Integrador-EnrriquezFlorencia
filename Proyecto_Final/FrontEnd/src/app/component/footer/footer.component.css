@@ -12,3 +12,9 @@ footer {
     text-align: center;
     box-shadow: 2px -2px 5px rgb(57, 35, 35);
 }
+
+@media (max-width: 7680px) {
+    p {
+        font-size: 0.9vw;
+    }
+}

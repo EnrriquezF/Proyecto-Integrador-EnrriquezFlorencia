@@ -1,0 +1,33 @@
+.row {
+    background-color: bisque;
+    margin: 0vw;
+    padding: 20px;
+}
+
+.container {
+    width: auto;
+}
+
+.texto, .imagen {
+    display: inline-block;
+    text-align: justify
+}
+
+.proyecto {
+    box-shadow: 10px 10px 30px #826840;
+}
+
+/*@media (max-width: 7680px) {
+    h1 {
+        font-size: 2vw;
+    }
+    h2 {
+        font-size: 1.5vw;
+    }
+    h4 {
+        font-size: 1.2vw;
+    }
+    p {
+        font-size: 0.8vw;
+    }
+}*/
