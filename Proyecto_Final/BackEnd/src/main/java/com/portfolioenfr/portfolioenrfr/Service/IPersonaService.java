@@ -1,4 +1,4 @@
-package com.portfolioenfr.portfolioenrfr.Interface;
+package com.portfolioenfr.portfolioenrfr.Service;
 
 import com.portfolioenfr.portfolioenrfr.Entity.Persona;
 import java.util.List;

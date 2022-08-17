@@ -1,7 +1,6 @@
 package com.portfolioenfr.portfolioenrfr.Service;
 
 import com.portfolioenfr.portfolioenrfr.Entity.Persona;
-import com.portfolioenfr.portfolioenrfr.Interface.IPersonaService;
 import com.portfolioenfr.portfolioenrfr.Repository.IPersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +12,8 @@ public class ImpPersonaService implements IPersonaService{
     
     @Override
     public List<Persona> getPersona() {
-        List<Persona> persona = ipersonaRepository.findAll();
+        List<Persona> persona;
+        persona = ipersonaRepository.findAll();
         return persona;
     }
 
